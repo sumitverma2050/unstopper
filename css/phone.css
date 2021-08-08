@@ -1,0 +1,45 @@
+body{
+    background-color: blueviolet;
+}
+
+/* nav */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1.1rem;
+}
+
+
+
+/* home section/ */
+
+section#home{
+    height: 1000px;
+
+}
+section#home::before{
+    height: 968px;
+
+}
+
+/* adventure section */
+div#places{
+    flex-direction: column;
+    margin: 15px;
+}
+#places .box{
+    margin: 5px;
+
+}
+
+/* Our client */
+#client-section{
+    overflow: hidden;
+
+}
+
+/* Contact us  */
+#contact{
+
+}
